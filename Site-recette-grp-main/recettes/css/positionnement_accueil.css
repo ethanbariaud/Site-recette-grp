@@ -1,0 +1,60 @@
+/* le menu de navigation */
+
+header,footer{
+    padding: 1rem;
+    flex-basis: 100%;
+    margin: 0.5%;
+}
+
+header{
+    text-align: center;
+}
+
+header li{
+    flex-grow: 1;
+    list-style: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+footer img {
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+  flex-basis: 100%;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#acceuil_entree,#acceuil_plats,#acceuil_dessert img{
+    height: 190px;
+    width: 430px;
+}
+
+
+#acceuil_entree,#acceuil_plats,#acceuil_dessert{
+    flex-basis: 30%;
+}
+
+#total{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#acceuil img{
+    height: 35em;
+    width: auto;
+    vertical-align: middle;
+    flex-basis: 100%;
+}

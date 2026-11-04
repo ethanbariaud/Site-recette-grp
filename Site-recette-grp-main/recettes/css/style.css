@@ -1,0 +1,15 @@
+/* Règles générales */
+
+/* Règles générales */
+
+header,footer{
+    background-color: lightgrey;
+}
+
+h1,h2,h3{
+    color: rgb(4, 4, 163);
+}
+
+#plat1_entree,#plat2_entree,#plat3_entree,#plat1_dessert,#plat2_dessert,#plat3_dessert,#plat4_dessert,#plat1_plats,#plat2_plats{
+    background-color: lightblue;
+}

@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#entrees,#dessert,#plats{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+}
+
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+}
+
+#plat1_entree,#plat2_entree,#plat3_entree,#plat1_dessert,#plat2_dessert,#plat3_dessert,#plat4_dessert,#plat1_plats,#plat2_plats{
+    flex-basis: 40%;
+    margin: 0.5%;
+    padding: 1rem;
+}
+
+h2{
+    flex-basis: 100%;
+    margin: 0.5%;
+}
+
+
+aside{
+    flex-basis: 20%;
+}
+
+footer img {
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+  flex-basis: 100%;
+}
+
+header,footer{
+    padding: 1rem;
+    flex-basis: 100%;
+    margin: 0.5%;
+}
+
+header li{
+    flex-grow: 1;
+    list-style: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+aside>img{
+    height: 10em;
+    width: auto;
+    vertical-align: middle;
+    flex-basis: 100%;
+}
+
+header{
+    text-align: center;
+}
