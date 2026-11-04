@@ -58,3 +58,10 @@ main{
     vertical-align: middle;
     flex-basis: 100%;
 }
+
+footer img {
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+  flex-basis: 100%;
+}
