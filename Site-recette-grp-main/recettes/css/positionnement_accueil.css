@@ -32,9 +32,18 @@ body{
     flex-wrap: wrap;
 }
 
-main{
+main {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+#accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    flex-basis: 100%;
 }
 
 #acceuil_entree,#acceuil_plats,#acceuil_dessert img{
@@ -55,8 +64,6 @@ main{
 #acceuil img{
     height: 35em;
     width: auto;
-    vertical-align: middle;
-    flex-basis: 100%;
 }
 
 footer img {
