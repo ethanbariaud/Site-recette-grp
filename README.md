@@ -1,1 +1,1 @@
-Positionnement de l'accueil a terminer
+Réalisée par Ethan Bariaud, Wassim El omari, Hussein Khadaev Info13
